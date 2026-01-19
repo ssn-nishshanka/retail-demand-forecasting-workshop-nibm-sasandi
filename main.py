@@ -20,7 +20,7 @@ def main():
     # Step 1: Preprocess data
     df = preprocess_run()  # MUST return a DataFrame
     # print("Data preprocessing completed")
-    logger.info("Data preprocessing completed")
+    logger.info("Data testing and data preprocessing completed")
     # Step 2: Feature engineering
     df = add_features(df)  # MUST return df with new features
     # print("Feature engineering completed")
